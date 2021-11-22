@@ -14,7 +14,10 @@ namespace WebAppTest
             if(!this.IsPostBack)
             {
 
-                Response.Write("Click Button to get response NOW!!! Line added by 146");
+
+                Response.Write("This is my STG from 146!!!");
+
+
                
             }
         }
