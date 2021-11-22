@@ -14,7 +14,10 @@ namespace WebAppTest
             if(!this.IsPostBack)
             {
 
+
                 Response.Write("This is my STG from 146!!!");
+
+
                
             }
         }
@@ -22,7 +25,7 @@ namespace WebAppTest
         protected void btnShow_Click(object sender, EventArgs e)
         {
 
-            Response.Write("Samuel");
+            Response.Write("Samuel: Developer");
         }
     }
 }
